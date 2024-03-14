@@ -4,7 +4,7 @@ import heroVideo from './images/herovideo.mp4'
 const Hero = () => {
     return (
         <div>
-            <video className="absolute inset-0 w-full h-full -z-10 object-cover" autoPlay loop muted>
+            <video className="absolute inset-0 w-full  h-full -z-10 object-cover" autoPlay loop muted>
                 <source src={heroVideo} type="video/mp4" />
             </video>
 

@@ -3,8 +3,8 @@ import csilogo from './images/csilogo.svg';
 
 const Navbar = () => {
     return (
-        <div>
-            <nav class="bg-gray-900 border-gray-200">
+        <div class="sticky top-0">
+            <nav class="bg-gray-900 bg-opacity-60 border-gray-200">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a class="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src={csilogo} class="h-10" alt="Flowbite Logo" />
